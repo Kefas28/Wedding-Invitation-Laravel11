@@ -21,6 +21,7 @@ return new class extends Migration
             $table->text('address');
             $table->text('maps');
             $table->text('calendar');
+            $table->string('photo')->nullable();
             $table->timestamps();
         });
     }
